@@ -24,3 +24,6 @@ Route::middleware('locale')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::resource('users', 'App\Http\Controllers\UsersController', ['only' => ['show', 'update', 'edit']]);
+// Route::get('/users/{user}', 'App\Http\Controllers\UsersController@show')->name('users.show');
