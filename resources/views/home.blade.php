@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '')
+@section('title', '智学新境引擎')
 
 @section('content')
 <div class="bg-white rounded-xl shadow-lg p-6">
@@ -10,13 +10,7 @@
     <div class="grid md:grid-cols-2 gap-6">
         <div class="p-6 bg-blue-50 rounded-lg">
             <h2 class="text-2xl font-semibold mb-3">核心特性</h2>
-            <ul class="space-y-2">
-                <li class="flex items-center">
-                    <lord-icon src="https://cdn.lordicon.com/wloilxuq.json" trigger="hover" class="mr-20"/>
-                    
-                </li>
-                <!-- 更多特性 -->
-            </ul>
+           
         </div>
     </div>
 </div>
